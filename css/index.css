@@ -269,3 +269,23 @@ footer p {
   text-align: center;
   margin-top: 3%;
 }
+
+@media(max-width: 800px) {
+  header {
+    flex-direction: column-reverse;
+  }
+
+  .nav {
+    width: 100%;
+    margin-top: 5%;
+    justify-content: space-around;
+  }
+
+  #call-to-action {
+    justify-content: center;
+  }
+
+  .call-img {
+    display: none;
+  }
+}
